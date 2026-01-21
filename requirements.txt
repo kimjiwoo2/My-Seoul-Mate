@@ -1,0 +1,12 @@
+openai
+pandas
+numpy
+gradio==5.49.1 
+geopy
+joblib
+scikit-learn
+sentence-transformers
+torch
+openpyxl
+huggingface_hub
+lightgbm
