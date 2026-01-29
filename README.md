@@ -48,7 +48,7 @@
 - **LLM & NLP:** OpenAI GPT-3.5, SBERT (Multilingual), BERTopic
 - **Machine Learning:** LightGBM, Scikit-learn, Pandas, NumPy
 - **Service:** Gradio, OpenAI API, TourAPI, Hugging Face Spaces
-- **Tools:** Google Colab, Google Drive (Data Management), Notion, Git
+- **Tools:** Google Colab, Visual Studio Code, Google Drive (Data Management), Notion, Git
 
 
 ## Live Demo
