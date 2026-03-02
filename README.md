@@ -31,7 +31,7 @@
     - **LightGBM Regression:** 리뷰 텍스트 임베딩, 동반인, 목적 등 다양한 피처를 학습하여 정교한 예상 평점($S_{long}$) 예측 (MAE: 0.3385).
     - **Bayesian Smoothing:** 계층 간 데이터 불균형을 해소하기 위해 상위 레이어의 통계 정보를 활용한 평점 보정.
 2. **맥락 인식 동적 가중치 시스템 (Dynamic):**
-    - **State Management:** 전체 대화 로그 대신 '현재 상태(State)'와 '직전 쿼리'만 추적하여 토큰 비용 절감 및 응답 속도 최적화.
+    - **State Management:** 전체 대화 로그 대신 현재 상태(State)와 직전 쿼리만 추적하여 토큰 비용 절감 및 응답 속도 최적화.
     - **4-Component Scoring:**
         - **$S_{long}$ (장기 선호):** 사용자 프로필 기반 정적 점수.
         - **$S_{sim}$ (분위기 연속성):** 직전 추천 장소와의 임베딩 유사도를 계산하여 여행 흐름 유지.
@@ -48,12 +48,13 @@
 - **LLM & NLP:** OpenAI GPT-3.5, SBERT (Multilingual), BERTopic
 - **Machine Learning:** LightGBM, Scikit-learn, Pandas, NumPy
 - **Service:** Gradio, OpenAI API, TourAPI, Hugging Face Spaces
-- **Tools:** Google Colab, Google Drive (Data Management), Notion, Git
+- **Tools:** Google Colab, Visual Studio Code, Google Drive (Data Management), Notion, Git
 
 
 ## Live Demo
 
 https://huggingface.co/spaces/Wonder-Buddies/My-Seoul-Mate
+
 허깅페이스(Hugging Face)에서 실제 동작하는 서비스를 체험해보실 수 있습니다. 
 
 
